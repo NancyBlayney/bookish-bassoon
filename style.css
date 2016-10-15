@@ -1,0 +1,446 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+a{
+	color: white;
+}
+
+a .fa:hover{
+	color: #8cece2;
+	transform: scale(1.2);
+}
+
+.logo {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	line-height: 8vh;
+}
+
+.container {
+	width: 100%;
+	color: white;
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box; 
+  background-color: black;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+	font-style: bold;
+}
+
+.container:after{
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+.content {
+	display: none;
+	float: left
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;
+	padding: 3%;
+	font-size: 1em;
+}
+
+.block {
+	height: 28vh;
+	position: relative;
+	margin-top: 3%;
+}
+
+.title {
+	position: absolute;
+	bottom: 2%;
+	right: 3%;
+} 
+
+.left {
+	float:left;
+}
+
+.right {
+	float: right;
+}
+
+.home {
+	width: 40%;
+	box-shadow: inset 0 0 0 1000px rgba(35,227,161, .7);
+	background: url(images/home.png); 
+	background-size: cover;
+}
+
+.home:hover{
+	box-shadow: inset 0 0 0 1000px rgba(35,227,161, .6);
+}
+
+.home-content {
+	margin-top: 30%;
+}
+
+.about {
+	box-shadow: inset 0 0 0 1000px rgba(35,197,227, .7);
+	background: url(images/about.png); 
+	background-size: cover;
+	width: 57%;
+}
+
+.about:hover{
+	box-shadow: inset 0 0 0 1000px rgba(35,197,227, .6);
+}
+
+.about-content {
+	margin-top: 1%;
+	font-size: .9em;
+}
+
+#red{
+	color: #a30000;
+	font-weight: 600;
+}
+
+.quote {
+	text-align: right;
+}
+
+
+.projects {
+	box-shadow: inset 0 0 0 1000px rgba(184,127,237, .7);
+	background: url(images/projects.png); 
+	background-size: cover;
+	width: 67%;
+	overflow: auto;
+}
+
+.projects:hover{
+	box-shadow: inset 0 0 0 1000px rgba(184,127,237, .5);
+}
+
+.projects-content {
+	display: block;
+	margin: 0;
+	padding-top: 12vh;
+	width: 100%;
+	text-align: center;
+}
+
+.skills {
+	background-color: #fb6565;
+	box-shadow: inset 0 0 0 1000px rgba(251,101,101, .7);
+	background: url(images/skills.png); 
+	background-size: cover;
+	width: 30%
+}
+
+.skills:hover{
+	box-shadow: inset 0 0 0 1000px rgba(251,101,101, .6);
+}
+
+
+.github {
+	background-color: #ffa500;
+	box-shadow: inset 0 0 0 1000px rgba(255,165,0, .7);
+	background: url(images/github.png); 
+	background-size: cover;
+	width: 35%;
+}
+
+.github:hover{
+	box-shadow: inset 0 0 0 1000px rgba(255,165,0, .6);
+}
+
+.fa{
+	font-size: 26vw;
+}
+
+.fa-github{
+	font-size: 35vw;
+}
+
+.contact {
+	background-color: #ffd700;
+	box-shadow: inset 0 0 0 1000px rgba(255,215,0, .7);
+	background: url(images/contact.png); 
+	background-size: cover;
+	width: 62%;
+}
+
+.contact:hover{
+	box-shadow: inset 0 0 0 1000px rgba(255,215,0, .6);
+}
+
+.contact-content{
+	margin-top: 1%;
+}
+
+.block:hover, .fa-github:hover{
+	cursor: pointer;
+}
+
+.content:hover {
+	cursor: auto;
+}
+
+
+
+/*Projects Styling*/
+
+
+.projects-content img {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 6%;
+	display: none;
+}
+
+.project {
+	display: none;
+	width: 100%;
+	height: 70px;
+}
+
+.project:hover{
+	cursor:pointer;
+}
+
+.html-project {
+	box-shadow: inset 0 0 0 1000px rgba(110,76,142, .7);
+}
+
+.clock-project{
+	box-shadow: inset 0 0 0 1000px rgba(128,88,165, .7);
+}
+
+.modal-project{
+	box-shadow: inset 0 0 0 1000px rgba(147,101,189, .7);
+}
+
+.darin-project{
+	box-shadow: inset 0 0 0 1000px rgba(165,114,213, .7);
+}
+
+.rails-project{
+	box-shadow: inset 0 0 0 1000px rgba(184,127,237, .7);
+}
+
+.jukebox-project{
+	box-shadow: inset 0 0 0 1000px rgba(191,139,238, .7);
+}
+
+.project h2{
+	padding-top: 8%;
+	margin: 0;
+}
+
+.fixed-title{
+	position: absolute;
+	top: 2%;
+	right: 10%;
+	height: 50px;
+	margin: 0;
+}
+
+
+
+
+/*Pots and Pans*/
+
+ul {
+	list-style-type: none;
+}
+
+li{
+	font-size: 1.3em;
+	padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 641px) {
+
+	.logo {
+		line-height: 10vh;
+	}
+
+
+	.block {
+		height: 35vh;
+		float: left;
+		margin: 0;
+	}
+
+	.title {
+		top: 2%;
+	} 
+
+	.wrapper {
+		width: 99%;
+		margin: 0 auto;
+	}
+
+	.content{
+		display: none; 
+	}
+
+	.home-content, .skills-content{
+		margin-top: 15%;
+	}
+
+	.contact-content{
+		margin-top: 5%;
+	}
+
+	.home {
+		width: 50%;
+	}
+
+	.about {
+		width: 50%;
+	}
+
+	.about-content {
+		width: 75%;
+		margin: 0 auto;
+		padding-top: 7%;
+	}
+
+	.projects {
+		width: 100%;
+		height: 20vh;
+		padding-top: 0;
+	}
+
+	.projects-content {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 8vh;
+		overflow: auto;
+	}
+
+	.project h2 {
+		display: none;
+	}
+
+	.projects-content img {
+		width: 20vw;
+		margin-left: 2vw;
+		display: inline;
+		float: left;
+		border-radius: 10%;
+		padding-top: 0;
+		margin-top: 2%;
+	}
+
+	.projects-content img:hover {
+		border-color: #FFDAB9;
+  	box-shadow: 0 0 10px rgba(255,218,185, 1);
+  	transform: scale(1.1, 1.1)
+	}
+
+	.project{
+		box-shadow: inset 0 0 0 1000px rgba(184,127,237, 0);
+		height: 0px;
+		margin: 0;
+	}
+
+	.projects-title {
+		width: 8vw;
+		float: right;
+	}
+
+	.projects-title:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.skills {
+		width: 33.3%;
+	}
+
+	.github {
+		width: 33.3%;
+	}
+
+	.github:hover {
+		cursor: default;
+	}
+
+	.github-content{
+		display: inline !important;
+	}
+
+	.github .fa{
+		font-size: 10vw;
+		margin-top: 5vw;
+		margin-left:12vw;
+	}
+
+	.contact {
+		width: 33.3%;
+	}
+
+	.contact .fa{
+		font-size: 10vw;
+	}
+
+	#html, #clock, #modal, #darin, #rails, #jukebox{
+		display: none;
+	}
+
+
+
+}
+
+
+
+
+
+
+/*classes to be added and removed in jquery*/
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+
+
+
+
+
+
+
