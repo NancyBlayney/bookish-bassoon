@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<title>Nancy Bee Development</title>
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="script2.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
@@ -18,9 +18,9 @@
 			<div class="wrapper">
 
 
-				<div class="row one">
+				<div class="row one row-one">
 
-					<div class="home block left">
+					<div class="home block left clickable">
 						<h2 class="title">home.</h2>
 						<div class="content home-content">
 							<h1>Nancy Bee Development</h1>
@@ -29,7 +29,7 @@
 						</div>
 					</div>
 
-					<div class="about block right">
+					<div class="about block right clickable">
 						<h2 class="title">about.</h2>
 						<div class="content about-content">
 							<h2><em>"Nancy has never been afraid to push boundaries or question limits."</em></h2>
@@ -47,39 +47,35 @@
 				</div>
 
 
-				<div class="row two">
+				<div class="row two row-two">
 
-					<div class="projects block left">
+					<div class="projects block left clickable">
 						<h2 class="title projects-title">projects.</h2>
-						<div class="projects-content">
-							<div class="project html-project">
-								<h2>HTML/CSS Article Markup</h2>
-								<a href="http://nycda.zone/blayney18/web/" target='_blank'><img src="images/project2.png" class="html-img primg"></a>
-							</div>
-							<div class="project clock-project">
-								<h2>JavaScript Clock</h2>
-								<a href="http://nycda.zone/blayney18/clock/" target='_blank'><img src="images/project4.png" class="clock-img primg"></a>
-							</div>
-							<div class="project modal-project">
-								<h2>JavaScript/jQuery Modals</h2>
-								<a href="http://nycda.zone/blayney18/modal/" target='_blank'><img src="images/project5.png" class="modal-img primg"></a>
-							</div>
+						<div class="content projects-content">
 							<div class="project darin-project">
-								<h2>Ruby/Sinatra/Skeleton</h2>
-								<a href="https://afternoon-thicket-70475.herokuapp.com/" target='_blank'><img src="images/project6.png" class="darin-img primg"></a>
+								<h2>Ruby/Sinatra</h2>
+								<a href="https://afternoon-thicket-70475.herokuapp.com/" class = 'redirect' target='_blank'><img src="images/project6.png" class="darin-img primg"></a>
 							</div>
-							<div class="project rails-project">
-								<h2>Ruby on Rails/CRUD</h2>
-								<a href="https://warm-atoll-18802.herokuapp.com/" target='_blank'><img src="images/project7.png" class="rails-img primg"></a>
+							<div class="project septa-project">
+								<h2>Rails Train Lateness App</h2>
+								<a href="http://104.236.116.82/" class = 'redirect' target='_blank'><img src="images/project1.png" class="html-img primg"></a>
+							</div>
+							<div class="project parallax-project">
+								<h2>A Parallax Oceanic Adventure</h2>
+								<a href="https://nancyblayney.github.io/" class = 'redirect' target='_blank'><img src="images/projectA.png" class="rails-img primg"></a>
 							</div>
 							<div class="project jukebox-project">
 								<h2>Object-Oriented JavaScript</h2>
-								<a href="http://nycda.zone/blayney18/jukebox/" target='_blank'><img src="images/project8.png" class="jukebox-img primg"></a><br>
+								<a href="http://nycda.zone/blayney18/jukebox/" class = 'redirect' target='_blank'><img src="images/project8.png" class="jukebox-img primg"></a>
+							</div>
+							<div class="project clock-project">
+								<h2>JavaScript Clock</h2>
+								<a href="http://nycda.zone/blayney18/clock/" class = 'redirect' target='_blank'><img src="images/project4.png" class="clock-img primg"></a>
 							</div>
 						</div>
 					</div>
 
-					<div class="skills block right">
+					<div class="skills block right clickable">
 						<h2 class="title">skills.</h2>
 						<div class="content skills-content">
 							<ul>
@@ -99,22 +95,24 @@
 				</div>
 
 
-				<div class="row three">
+				<div class="row three row-three">
 
-					<div class="github block left">
+					<div class="github block left clickable">
 						<h2 class="title">github.</h2>
 						<div class="content github-content">
 							<a href="https://github.com/NancyBlayney" target="_blank"><i class="fa fa-github"></i></a>
 						</div>
 					</div>
 
-					<div class="contact block right ">
+					<div class="contact block right clickable">
 						<h2 class="title">contact nancy.</h2>
 						<div class="content contact-content">
 							<h2>NancyBeeDev@gmail.com</h2>
-							<div id="twitter" class="exception"><a href="https://twitter.com/NancyBlayney" target="_blank"><i class="fa fa-twitter-square"></i></a></div>
+							<div id="twitter" class="exception">
+								<a href="https://twitter.com/NancyBlayney" target="_blank"><i class="fa fa-twitter-square no-click"></i></a>
+							</div>
 							<div id="linkedin" class="exception">
-								<a href="https://www.linkedin.com/in/nancyblayney" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+								<a href="https://www.linkedin.com/in/nancyblayney" target="_blank"><i class="fa fa-linkedin-square no-click"></i></a>
 							</div>
 							<h3>The problem has never been that I don't want to do something; it's that I want to do <em>everything</em>.</h3>
 						</div>
