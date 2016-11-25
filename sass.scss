@@ -93,11 +93,17 @@ a .fa:hover{
 	position: relative;
 }
 
+#programmer-joke{
+	z-index: 11;
+	position: relative;
+}
+
 .fixed-image{
 	position: absolute;
 	top: 0;
 	left: 25%;
 	width: 50%;
+	z-index: 10;
 }
 
 .about {
