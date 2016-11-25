@@ -2,14 +2,14 @@ $(document).ready(function(){
 
 	var clicked = false;
 
-			function oldHeight(){
-				$('.row-two, .row-one, .row-three').animate({height: '28vh'}, 300)
-			}
+	function oldHeight(){
+		$('.row-two, .row-one, .row-three').animate({height: '28vh'}, 300)
+	}
 
-			function newHeight(rowA, rowB){
-				$(rowA).animate({height: '64vh'}, 300)
-				$(rowB).animate({height: '10vh'}, 300)
-			}
+	function newHeight(rowA, rowB){
+		$(rowA).animate({height: '64vh'}, 300)
+		$(rowB).animate({height: '10vh'}, 300)
+	}
 
 	// media query event handler
 	if (matchMedia) {
@@ -114,7 +114,6 @@ $(document).ready(function(){
 				}
 			}
 
-
 			$('.block').click(function(e) {
 				if ($(e.target).hasClass('no-click')){
 					return;
@@ -154,10 +153,6 @@ $(document).ready(function(){
 					clicked = false;
 				}
 			})
-
-
-
-
 
 	  }
 
