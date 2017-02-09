@@ -1,8 +1,8 @@
 html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
 a{
@@ -53,7 +53,7 @@ a .fa:hover{
 	padding: 3%;
 	font-size: 1.5em;
 	box-sizing: border-box;
-		height: 62vh;
+	height: 62vh;
 	overflow: scroll;
 }
 
@@ -150,13 +150,12 @@ a .fa:hover{
 	width: 32%
 }
 
-.skills:hover{
-	box-shadow: inset 0 0 0 1000px rgba(251,101,101, .6);
+.skills ul {
+	padding: 0;
 }
 
-.skills-content{
-	// height: 62vh;
-	// overflow: scroll;
+.skills:hover{
+	box-shadow: inset 0 0 0 1000px rgba(251,101,101, .6);
 }
 
 .github {
@@ -235,15 +234,7 @@ a .fa:hover{
 	padding-top: 0%;
 	padding-bottom: 2%;
 	margin-bottom:2%;
-	display: none;
 	border-radius: 10px;
-}
-
-.project {
-	width: 100vw;
-	height: 15vh;
-	margin: 0 auto;
-	padding-bottom: 2vh;
 }
 
 .project:hover{
